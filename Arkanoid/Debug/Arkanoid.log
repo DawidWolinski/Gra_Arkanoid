@@ -1,5 +1,34 @@
-﻿  StanBoss.cpp
+﻿  Bonus.cpp
+  Boss.cpp
+  BossOtwarcie.cpp
+  BossSmierc.cpp
+  BossSpoczynek.cpp
+  BossStrzelanie.cpp
+  BossZamkniecie.cpp
+  EkranKoncowy.cpp
+  GameOver.cpp
+  GornyInterface.cpp
+  Klocek.cpp
+  main.cpp
+  MenuRozgrywka.cpp
+  NarzedzieDoStanow.cpp
+  Paleta.cpp
+  PaletaPojawienie.cpp
+  PaletaSmierc.cpp
+  PaletaStandardowa.cpp
+  PaletaTransformacja.cpp
+  Pilka.cpp
+  Generating Code...
+  Compiling...
+  Poziom.cpp
+  Silnik.cpp
+  StanBoss.cpp
+  StanIntro.cpp
+C:\C++\Gra_Arkanoid\Arkanoid\StanIntro.cpp(94,30): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
   StanMenu.cpp
   StanRozgrywki.cpp
+  TablicaWynikow.cpp
+  TossCoin.cpp
+  Zasoby.cpp
   Generating Code...
-  Arkanoid.vcxproj -> C:\C++\Arkanoid\Debug\Arkanoid.exe
+  Arkanoid.vcxproj -> C:\C++\Gra_Arkanoid\Debug\Arkanoid.exe
