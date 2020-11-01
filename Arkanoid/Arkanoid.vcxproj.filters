@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Stany">
+      <UniqueIdentifier>{de197587-d089-49d5-8888-db8d1cb551a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Obiekty">
+      <UniqueIdentifier>{6db37627-72d1-4e96-8e77-7c6a0ac42bcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Silnik">
+      <UniqueIdentifier>{8f9cea59-69d0-4abd-a7c6-488074462f41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Interfejsy">
+      <UniqueIdentifier>{dcb3d0ce-9269-450c-8108-1a89fbfbefa3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Obiekty">
+      <UniqueIdentifier>{9d15f6ca-393e-4981-864f-1e87dfe9b99e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Stany">
+      <UniqueIdentifier>{8950d51e-9cbe-4ad1-9316-f6942a91befc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Silnik">
+      <UniqueIdentifier>{f04e1c69-a0af-473d-9e43-6b4b33eb74d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Stany\Animacja Palety">
+      <UniqueIdentifier>{76767812-2fa9-44f1-a896-9815d0cc1840}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Stany\Animacja Bossa">
+      <UniqueIdentifier>{5928de73-805d-4178-9b59-111c3277228f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Stany\Animacja Palety">
+      <UniqueIdentifier>{bc5cbf59-ca7d-41b0-919a-a7c13b6957d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Stany\Animacja Bossa">
+      <UniqueIdentifier>{f8e04227-0f8d-4d7f-b530-14293936c158}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Poziom.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Bonus.cpp">
+      <Filter>Source Files\Obiekty</Filter>
+    </ClCompile>
+    <ClCompile Include="Klocek.cpp">
+      <Filter>Source Files\Obiekty</Filter>
+    </ClCompile>
+    <ClCompile Include="Paleta.cpp">
+      <Filter>Source Files\Obiekty</Filter>
+    </ClCompile>
+    <ClCompile Include="Pilka.cpp">
+      <Filter>Source Files\Obiekty</Filter>
+    </ClCompile>
+    <ClCompile Include="StanMenu.cpp">
+      <Filter>Source Files\Stany</Filter>
+    </ClCompile>
+    <ClCompile Include="StanRozgrywki.cpp">
+      <Filter>Source Files\Stany</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\Silnik</Filter>
+    </ClCompile>
+    <ClCompile Include="NarzedzieDoStanow.cpp">
+      <Filter>Source Files\Silnik</Filter>
+    </ClCompile>
+    <ClCompile Include="Silnik.cpp">
+      <Filter>Source Files\Silnik</Filter>
+    </ClCompile>
+    <ClCompile Include="Zasoby.cpp">
+      <Filter>Source Files\Silnik</Filter>
+    </ClCompile>
+    <ClCompile Include="PaletaPojawienie.cpp">
+      <Filter>Source Files\Stany\Animacja Palety</Filter>
+    </ClCompile>
+    <ClCompile Include="PaletaSmierc.cpp">
+      <Filter>Source Files\Stany\Animacja Palety</Filter>
+    </ClCompile>
+    <ClCompile Include="PaletaStandardowa.cpp">
+      <Filter>Source Files\Stany\Animacja Palety</Filter>
+    </ClCompile>
+    <ClCompile Include="PaletaTransformacja.cpp">
+      <Filter>Source Files\Stany\Animacja Palety</Filter>
+    </ClCompile>
+    <ClCompile Include="BossOtwarcie.cpp">
+      <Filter>Source Files\Stany\Animacja Bossa</Filter>
+    </ClCompile>
+    <ClCompile Include="BossSpoczynek.cpp">
+      <Filter>Source Files\Stany\Animacja Bossa</Filter>
+    </ClCompile>
+    <ClCompile Include="BossStrzelanie.cpp">
+      <Filter>Source Files\Stany\Animacja Bossa</Filter>
+    </ClCompile>
+    <ClCompile Include="BossZamkniecie.cpp">
+      <Filter>Source Files\Stany\Animacja Bossa</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>Source Files\Obiekty</Filter>
+    </ClCompile>
+    <ClCompile Include="StanBoss.cpp">
+      <Filter>Source Files\Stany</Filter>
+    </ClCompile>
+    <ClCompile Include="BossSmierc.cpp">
+      <Filter>Source Files\Stany\Animacja Bossa</Filter>
+    </ClCompile>
+    <ClCompile Include="GornyInterface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EkranKoncowy.cpp">
+      <Filter>Source Files\Stany</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOver.cpp">
+      <Filter>Source Files\Stany</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuRozgrywka.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TablicaWynikow.cpp">
+      <Filter>Source Files\Stany</Filter>
+    </ClCompile>
+    <ClCompile Include="TossCoin.cpp">
+      <Filter>Source Files\Stany</Filter>
+    </ClCompile>
+    <ClCompile Include="StanIntro.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Poziom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StanMenu.h">
+      <Filter>Header Files\Stany</Filter>
+    </ClInclude>
+    <ClInclude Include="StanRozgrywki.h">
+      <Filter>Header Files\Stany</Filter>
+    </ClInclude>
+    <ClInclude Include="Bonus.h">
+      <Filter>Header Files\Obiekty</Filter>
+    </ClInclude>
+    <ClInclude Include="Klocek.h">
+      <Filter>Header Files\Obiekty</Filter>
+    </ClInclude>
+    <ClInclude Include="Paleta.h">
+      <Filter>Header Files\Obiekty</Filter>
+    </ClInclude>
+    <ClInclude Include="Pilka.h">
+      <Filter>Header Files\Obiekty</Filter>
+    </ClInclude>
+    <ClInclude Include="Animacja.h">
+      <Filter>Header Files\Interfejsy</Filter>
+    </ClInclude>
+    <ClInclude Include="Stan.h">
+      <Filter>Header Files\Interfejsy</Filter>
+    </ClInclude>
+    <ClInclude Include="Silnik.h">
+      <Filter>Header Files\Silnik</Filter>
+    </ClInclude>
+    <ClInclude Include="NarzedzieDoStanow.h">
+      <Filter>Header Files\Silnik</Filter>
+    </ClInclude>
+    <ClInclude Include="Zasoby.h">
+      <Filter>Header Files\Silnik</Filter>
+    </ClInclude>
+    <ClInclude Include="Naglowki.h">
+      <Filter>Header Files\Silnik</Filter>
+    </ClInclude>
+    <ClInclude Include="PaletaPojawienie.h">
+      <Filter>Header Files\Stany\Animacja Palety</Filter>
+    </ClInclude>
+    <ClInclude Include="PaletaSmierc.h">
+      <Filter>Header Files\Stany\Animacja Palety</Filter>
+    </ClInclude>
+    <ClInclude Include="PaletaStandardowa.h">
+      <Filter>Header Files\Stany\Animacja Palety</Filter>
+    </ClInclude>
+    <ClInclude Include="PaletaTransformacja.h">
+      <Filter>Header Files\Stany\Animacja Palety</Filter>
+    </ClInclude>
+    <ClInclude Include="BossOtwarcie.h">
+      <Filter>Header Files\Stany\Animacja Bossa</Filter>
+    </ClInclude>
+    <ClInclude Include="BossSpoczynek.h">
+      <Filter>Header Files\Stany\Animacja Bossa</Filter>
+    </ClInclude>
+    <ClInclude Include="BossStrzelanie.h">
+      <Filter>Header Files\Stany\Animacja Bossa</Filter>
+    </ClInclude>
+    <ClInclude Include="BossZamkniecie.h">
+      <Filter>Header Files\Stany\Animacja Bossa</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>Header Files\Obiekty</Filter>
+    </ClInclude>
+    <ClInclude Include="BossAnimacja.h">
+      <Filter>Header Files\Interfejsy</Filter>
+    </ClInclude>
+    <ClInclude Include="StanBoss.h">
+      <Filter>Header Files\Stany</Filter>
+    </ClInclude>
+    <ClInclude Include="BossSmierc.h">
+      <Filter>Header Files\Stany\Animacja Bossa</Filter>
+    </ClInclude>
+    <ClInclude Include="GornyInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuRozgrywka.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EkranKoncowy.h">
+      <Filter>Header Files\Stany</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOver.h">
+      <Filter>Header Files\Stany</Filter>
+    </ClInclude>
+    <ClInclude Include="TablicaWynikow.h">
+      <Filter>Header Files\Stany</Filter>
+    </ClInclude>
+    <ClInclude Include="TossCoin.h">
+      <Filter>Header Files\Stany</Filter>
+    </ClInclude>
+    <ClInclude Include="StanIntro.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Arkanoid.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
