@@ -242,4 +242,12 @@
       <Filter>Resource Files</Filter>
     </ResourceCompile>
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\Users\dawid\Desktop\arkanoid_ikona.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\Users\dawid\Desktop\arkanoid_ikona2.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
 </Project>
