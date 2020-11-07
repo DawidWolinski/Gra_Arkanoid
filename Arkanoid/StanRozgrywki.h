@@ -39,6 +39,7 @@ private:
 	int ktoryPoziom;
 	sf::Time czasDzwiek;
 	sf::Clock dzwiekTimer;
+	std::uniform_int_distribution<int> losuj;
 
 	//Funkcje
 	void sprawdzKolizje();

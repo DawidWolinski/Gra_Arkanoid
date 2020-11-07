@@ -46,6 +46,7 @@ private:
 	const sf::Vector2f szybkosc;
 	const sf::Vector2f szybkoscLasera;
 	std::uniform_int_distribution<int> losuj;
+	std::uniform_int_distribution<int> losujPrzejscie;
 
 	//Funkcje
 	void ustawTeksture();

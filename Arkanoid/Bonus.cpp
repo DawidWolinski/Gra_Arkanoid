@@ -3,7 +3,7 @@
 Bonus::Bonus(ElementySilnikaWskaznik elementy)
     :   rodzaj(10), aktywnyRodzaj(10), czyWRuchu(false), czyRysowac(true), czyPrzejscie(false),
         szybkosc(sf::Vector2f(0.f, 70.f)), szybkoscLasera(sf::Vector2f(0.f, -300.f)),
-        zielonyCzas(0.f), zielonyLimit(5.f), losuj(0, 6), element(elementy)
+        zielonyCzas(0.f), zielonyLimit(5.f), losuj(0, 6), losujPrzejscie(0, 1), element(elementy)
 {
     this->ustawTeksture();
     this->setPosition(sf::Vector2f(SZEROKOSC / 2.f, WYSOKOSC + this->getGlobalBounds().height/2.f + 1.f));
@@ -36,11 +36,20 @@ void Bonus::zrzuc(const sf::Vector2f& pozycja)
 {
     if (!this->czyWRuchu)
     {
+       //Losowanie bonusu
+       //0 - Spowolnienie, 1 - Lapanie pilki, 2 - Laser, 3 - Wydluzenie, 4 - Trzy pilki, 5 - Pominiecie poziomu, 6 - Dodatkowe zycie
+
        int tymczasowa = 0;
         this->czyWRuchu = true;
         do
         {
              tymczasowa = this->losuj(this->element->generator);
+
+             //Pominiecie poziomu (5) ma mniejsza szanse na wypadniecie
+             if (tymczasowa == 5)
+                 if (this->losujPrzejscie(this->element->generator) == 0)
+                     tymczasowa = aktywnyRodzaj;
+                     
         } while (tymczasowa == aktywnyRodzaj || tymczasowa == rodzaj || tymczasowa == 5 && this->przejscie.getTextureRect().left != 924);
         this->rodzaj = tymczasowa;
         this->setPosition(pozycja);

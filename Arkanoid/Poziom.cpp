@@ -224,6 +224,10 @@ std::vector<int> Poziom::wybierzUklad()
     std::vector<int> ukladPoziomu;
     switch (this->numer)
     {
+
+        // 0 - bialy, 1 - pomaranczowy, 2 - blekitny, 3 - zielony, 4 - czerwony 
+        // 5 - blekitny, 6 - rozowy, 7 - zolty, 8 - zelazny, 9 - zloty
+
     case 0:
         ukladPoziomu.insert(ukladPoziomu.end(), { _, _, _, _, _, _, _, _, _, _, _, _, _ });
         ukladPoziomu.insert(ukladPoziomu.end(), { _, _, _, _, _, _, _, _, _, _, _, _, _ });
@@ -726,6 +730,148 @@ std::vector<int> Poziom::wybierzUklad()
         ukladPoziomu.insert(ukladPoziomu.end(), { 9, _, _, _, 9, 3, 3, 3, 9, _, _, _, 9 });
         ukladPoziomu.insert(ukladPoziomu.end(), { 9, _, _, _, 9, 3, 3, 3, 9, _, _, _, 9 });
         ukladPoziomu.insert(ukladPoziomu.end(), { 9, 8, 8, 8, 9, 9, 9, 9, 9, 8, 8, 8, 9 });
+
+        break;
+
+    case 25:
+        ukladPoziomu.insert(ukladPoziomu.end(), { _, _, _, _, _, _, _, _, _, _, _, _, _ });
+        ukladPoziomu.insert(ukladPoziomu.end(), { _, _, _, _, _, _, _, _, _, _, _, _, _ });
+        ukladPoziomu.insert(ukladPoziomu.end(), { _, _, _, _, _, _, _, _, _, _, _, _, _ });
+        ukladPoziomu.insert(ukladPoziomu.end(), { _, _, _, _, _, _, _, _, _, _, _, _, _ });
+        ukladPoziomu.insert(ukladPoziomu.end(), { _, _, 9, 8, 8, 8, 9, _, _, _, _, _, _ });
+        ukladPoziomu.insert(ukladPoziomu.end(), { _, 9, _, _, _, _, _, 9, _, _, _, _, _ });
+        ukladPoziomu.insert(ukladPoziomu.end(), { 9, _, _, 2, 2, 2, _, _, 9, _, _, _, _ });
+        ukladPoziomu.insert(ukladPoziomu.end(), { 9, _, 3, 3, 3, 3, 3, _, 9, _, _, _, _ });
+        ukladPoziomu.insert(ukladPoziomu.end(), { 9, _, 5, 5, 5, 5, 5, _, 9, _, _, _, _ });
+        ukladPoziomu.insert(ukladPoziomu.end(), { 9, _, _, 6, 6, 6, _, _, 9, _, _, _, _ });
+        ukladPoziomu.insert(ukladPoziomu.end(), { _, 9, _, _, _, _, _, 9, _, _, _, _, _ });
+        ukladPoziomu.insert(ukladPoziomu.end(), { _, _, 9, 9, 9, 9, 9, _, _, _, _, _, _ });
+        ukladPoziomu.insert(ukladPoziomu.end(), { _, _, _, _, _, _, _, _, _, _, _, _, _ });
+        ukladPoziomu.insert(ukladPoziomu.end(), { _, _, _, _, _, _, _, _, _, _, _, _, _ });
+        ukladPoziomu.insert(ukladPoziomu.end(), { _, _, _, _, _, _, _, _, _, _, _, _, _ });
+        ukladPoziomu.insert(ukladPoziomu.end(), { _, _, _, _, _, _, _, _, _, _, _, _, _ });
+
+        break;
+
+    case 26:
+        ukladPoziomu.insert(ukladPoziomu.end(), { _, _, _, _, _, _, _, _, _, _, _, _, _ });
+        ukladPoziomu.insert(ukladPoziomu.end(), { _, _, _, _, _, _, _, _, _, _, _, _, _ });
+        ukladPoziomu.insert(ukladPoziomu.end(), { _, _, _, _, _, _, _, _, _, _, _, _, _ });
+        ukladPoziomu.insert(ukladPoziomu.end(), { _, _, _, _, _, _, _, _, _, _, _, _, _ });
+        ukladPoziomu.insert(ukladPoziomu.end(), { _, _, _, _, _, _, _, _, _, _, _, _, _ });
+        ukladPoziomu.insert(ukladPoziomu.end(), { _, _, _, _, _, _, _, _, _, _, _, _, _ });
+        ukladPoziomu.insert(ukladPoziomu.end(), { _, _, _, _, _, _, _, _, _, _, _, _, _ });
+        ukladPoziomu.insert(ukladPoziomu.end(), { _, _, _, _, _, _, _, _, _, _, _, _, _ });
+        ukladPoziomu.insert(ukladPoziomu.end(), { _, _, _, _, _, _, _, _, _, _, _, _, _ });
+        ukladPoziomu.insert(ukladPoziomu.end(), { _, _, _, _, _, _, _, _, _, _, _, _, _ });
+        ukladPoziomu.insert(ukladPoziomu.end(), { _, _, _, _, _, _, _, _, _, _, _, _, _ });
+        ukladPoziomu.insert(ukladPoziomu.end(), { 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8 });
+        ukladPoziomu.insert(ukladPoziomu.end(), { 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7 });
+        ukladPoziomu.insert(ukladPoziomu.end(), { 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8 });
+        ukladPoziomu.insert(ukladPoziomu.end(), { _, _, _, _, _, _, _, _, _, _, _, _, _ });
+        ukladPoziomu.insert(ukladPoziomu.end(), { 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8 });
+        ukladPoziomu.insert(ukladPoziomu.end(), { 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4 });
+        ukladPoziomu.insert(ukladPoziomu.end(), { 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8 });
+
+        break;
+
+    case 27:
+        ukladPoziomu.insert(ukladPoziomu.end(), { _, _, _, _, _, _, _, _, _, _, _, _, _ });
+        ukladPoziomu.insert(ukladPoziomu.end(), { _, _, _, _, _, _, _, _, _, _, _, _, _ });
+        ukladPoziomu.insert(ukladPoziomu.end(), { _, _, _, _, _, _, _, _, _, _, _, _, _ });
+        ukladPoziomu.insert(ukladPoziomu.end(), { 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2 });
+        ukladPoziomu.insert(ukladPoziomu.end(), { 2, 9, 9, 9, 9, 6, 9, 6, 9, 9, 9, 9, 2 });
+        ukladPoziomu.insert(ukladPoziomu.end(), { 2, 9, _, _, _, _, _, _, _, _, _, 9, 2 });
+        ukladPoziomu.insert(ukladPoziomu.end(), { 2, 9, 6, _, _, _, _, _, _, _, 6, 9, 2 });
+        ukladPoziomu.insert(ukladPoziomu.end(), { 2, 9, 6, 6, _, _, _, _, _, 6, 6, 9, 2 });
+        ukladPoziomu.insert(ukladPoziomu.end(), { 2, 9, 6, 6, 6, _, _, _, 6, 6, 6, 9, 2 });
+        ukladPoziomu.insert(ukladPoziomu.end(), { _, 2, 9, 6, 6, 6, _, 6, 6, 6, 9, 2, _ });
+        ukladPoziomu.insert(ukladPoziomu.end(), { _, _, 2, 9, 6, 6, 6, 6, 6, 9, 2, _, _ });
+        ukladPoziomu.insert(ukladPoziomu.end(), { _, _, _, 2, 9, 6, 6, 6, 9, 2, _, _, _ });
+        ukladPoziomu.insert(ukladPoziomu.end(), { _, _, _, _, 2, 9, 6, 9, 2, _, _, _, _ });
+        ukladPoziomu.insert(ukladPoziomu.end(), { _, _, _, _, _, 2, 6, 2, _, _, _, _, _ });
+        ukladPoziomu.insert(ukladPoziomu.end(), { _, _, _, _, _, _, 2, _, _, _, _, _, _ });
+        ukladPoziomu.insert(ukladPoziomu.end(), { _, _, _, _, _, _, _, _, _, _, _, _, _ });
+
+        break;
+
+    case 28:
+        ukladPoziomu.insert(ukladPoziomu.end(), { _, _, _, _, _, _, _, _, _, _, _, _, _ });
+        ukladPoziomu.insert(ukladPoziomu.end(), { _, _, _, _, _, _, _, _, _, _, _, _, _ });
+        ukladPoziomu.insert(ukladPoziomu.end(), { _, _, _, _, _, _, _, _, _, _, _, _, _ });
+        ukladPoziomu.insert(ukladPoziomu.end(), { _, _, _, _, _, _, _, _, _, _, _, _, _ });
+        ukladPoziomu.insert(ukladPoziomu.end(), { 7, 7, 7, 7, 7, 9, _, 9, 7, 7, 7, 7, 7 });
+        ukladPoziomu.insert(ukladPoziomu.end(), { 6, 6, 6, 6, 6, 9, _, 9, 6, 6, 6, 6, 6 });
+        ukladPoziomu.insert(ukladPoziomu.end(), { 9, 9, 0, 9, 9, 9, _, 9, 9, 9, 0, 9, 9 });
+        ukladPoziomu.insert(ukladPoziomu.end(), { 5, 5, 5, 5, 5, 9, _, 9, 5, 5, 5, 5, 5 });
+        ukladPoziomu.insert(ukladPoziomu.end(), { 4, 4, 4, 4, 4, 9, _, 9, 4, 4, 4, 4, 4 });
+        ukladPoziomu.insert(ukladPoziomu.end(), { 3, 3, 3, 3, 3, 9, _, 9, 3, 3, 3, 3, 3 });
+        ukladPoziomu.insert(ukladPoziomu.end(), { 9, 9, 0, 9, 9, 9, _, 9, 9, 9, 0, 9, 9 });
+        ukladPoziomu.insert(ukladPoziomu.end(), { 2, 2, 2, 2, 2, 9, _, 9, 2, 2, 2, 2, 2 });
+        ukladPoziomu.insert(ukladPoziomu.end(), { 1, 1, 1, 1, 1, 9, _, 9, 1, 1, 1, 1, 1 });
+        ukladPoziomu.insert(ukladPoziomu.end(), { 0, 0, 0, 0, 0, 9, _, 9, 0, 0, 0, 0, 0 });
+
+        break;
+
+    case 29:
+        ukladPoziomu.insert(ukladPoziomu.end(), { _, _, _, _, _, _, _, _, _, _, _, _, _ });
+        ukladPoziomu.insert(ukladPoziomu.end(), { _, _, _, _, _, _, _, _, _, _, _, _, _ });
+        ukladPoziomu.insert(ukladPoziomu.end(), { _, _, _, _, _, _, _, _, _, _, _, _, _ });
+        ukladPoziomu.insert(ukladPoziomu.end(), { _, _, _, _, _, _, _, _, _, _, _, _, _ });
+        ukladPoziomu.insert(ukladPoziomu.end(), { 7, 6, _, _, _, _, _, _, _, _, _, _, _ });
+        ukladPoziomu.insert(ukladPoziomu.end(), { 7, 6, 5, 4, _, _, _, _, _, _, _, _, _ });
+        ukladPoziomu.insert(ukladPoziomu.end(), { 7, 6, 5, 4, 3, 2, _, _, _, _, _, _, _ });
+        ukladPoziomu.insert(ukladPoziomu.end(), { 7, 6, 5, 4, 3, 2, 1, 0, _, _, _, _, _ });
+        ukladPoziomu.insert(ukladPoziomu.end(), { 7, 6, 5, 4, 3, 2, 1, 0, 7, 6, _, _, _ });
+        ukladPoziomu.insert(ukladPoziomu.end(), { 8, 6, 5, 4, 3, 2, 1, 0, 7, 6, 5, 4, _ });
+        ukladPoziomu.insert(ukladPoziomu.end(), { _, 9, 8, 4, 3, 2, 1, 0, 7, 6, 5, 4, 3 });
+        ukladPoziomu.insert(ukladPoziomu.end(), { _, _, _, 9, 8, 2, 1, 0, 7, 6, 5, 4, 3 });
+        ukladPoziomu.insert(ukladPoziomu.end(), { _, _, _, _, _, 9, 8, 0, 7, 6, 5, 4, 3 });
+        ukladPoziomu.insert(ukladPoziomu.end(), { _, _, _, _, _, _, _, 9, 8, 6, 5, 4, 3 });
+        ukladPoziomu.insert(ukladPoziomu.end(), { _, _, _, _, _, _, _, _, _, 9, 8, 4, 3 });
+        ukladPoziomu.insert(ukladPoziomu.end(), { _, _, _, _, _, _, _, _, _, _, _, 9, 8 });
+
+        break;
+
+    case 30:
+        ukladPoziomu.insert(ukladPoziomu.end(), { _, _, _, _, _, _, _, _, _, _, _, _, _ });
+        ukladPoziomu.insert(ukladPoziomu.end(), { _, _, _, _, _, _, _, _, _, _, _, _, _ });
+        ukladPoziomu.insert(ukladPoziomu.end(), { _, _, _, _, _, _, _, _, _, _, _, _, _ });
+        ukladPoziomu.insert(ukladPoziomu.end(), { _, _, _, _, _, _, _, _, _, _, _, _, _ });
+        ukladPoziomu.insert(ukladPoziomu.end(), { 3, _, 4, _, 5, _, 6, _, 7, _, 0, _, 1 });
+        ukladPoziomu.insert(ukladPoziomu.end(), { 8, _, 8, _, 8, _, 8, _, 8, _, 8, _, 8 });
+        ukladPoziomu.insert(ukladPoziomu.end(), { _, 5, _, 4, _, 3, _, 2, _, 1, _, 0, _ });
+        ukladPoziomu.insert(ukladPoziomu.end(), { _, 8, _, 8, _, 8, _, 8, _, 8, _, 8, _ });
+        ukladPoziomu.insert(ukladPoziomu.end(), { 2, _, 3, _, 4, _, 5, _, 6, _, 7, _, 0 });
+        ukladPoziomu.insert(ukladPoziomu.end(), { 8, _, 8, _, 8, _, 8, _, 8, _, 8, _, 8 });
+        ukladPoziomu.insert(ukladPoziomu.end(), { _, 6, _, 5, _, 4, _, 3, _, 2, _, 1, _ });
+        ukladPoziomu.insert(ukladPoziomu.end(), { _, 8, _, 8, _, 8, _, 8, _, 8, _, 8, _ });
+        ukladPoziomu.insert(ukladPoziomu.end(), { 1, _, 2, _, 3, _, 4, _, 5, _, 6, _, 7 });
+        ukladPoziomu.insert(ukladPoziomu.end(), { 8, _, 8, _, 8, _, 8, _, 8, _, 8, _, 8 });
+        ukladPoziomu.insert(ukladPoziomu.end(), { _, 7, _, 6, _, 5, _, 4, _, 3, _, 2, _ });
+        ukladPoziomu.insert(ukladPoziomu.end(), { _, 8, _, 8, _, 8, _, 8, _, 8, _, 8, _ });
+        ukladPoziomu.insert(ukladPoziomu.end(), { 0, _, 1, _, 2, _, 3, _, 4, _, 5, _, 6 });
+        ukladPoziomu.insert(ukladPoziomu.end(), { 8, _, 8, _, 8, _, 8, _, 8, _, 8, _, 8 });
+
+        break;
+
+    case 31:
+        ukladPoziomu.insert(ukladPoziomu.end(), { _, _, _, _, _, _, _, _, _, _, _, _, _ });
+        ukladPoziomu.insert(ukladPoziomu.end(), { _, _, _, _, _, _, _, _, _, _, _, _, _ });
+        ukladPoziomu.insert(ukladPoziomu.end(), { _, _, _, _, _, _, _, _, _, _, _, _, _ });
+        ukladPoziomu.insert(ukladPoziomu.end(), { _, _, _, _, _, _, _, _, _, _, _, _, _ });
+        ukladPoziomu.insert(ukladPoziomu.end(), { _, _, 9, _, 9, _, 9, _, 9, _, 9, _, _ });
+        ukladPoziomu.insert(ukladPoziomu.end(), { _, _, 9, _, 9, _, 9, _, 9, _, 9, _, _ });
+        ukladPoziomu.insert(ukladPoziomu.end(), { _, _, 9, _, 9, _, 9, _, 9, 3, 3, _, _ });
+        ukladPoziomu.insert(ukladPoziomu.end(), { _, _, 9, _, 9, _, 9, _, 9, _, 9, _, _ });
+        ukladPoziomu.insert(ukladPoziomu.end(), { _, _, 9, _, 9, _, 9, 4, 4, 4, 4, _, _ });
+        ukladPoziomu.insert(ukladPoziomu.end(), { _, _, 9, _, 9, _, 9, _, 9, _, 9, _, _ });
+        ukladPoziomu.insert(ukladPoziomu.end(), { _, _, 9, _, 9, 5, 5, 5, 5, 5, 5, _, _ });
+        ukladPoziomu.insert(ukladPoziomu.end(), { _, _, 9, _, 9, _, 9, _, 9, _, 9, _, _ });
+        ukladPoziomu.insert(ukladPoziomu.end(), { _, _, 9, 6, 6, 6, 6, 6, 6, 6, 6, _, _ });
+        ukladPoziomu.insert(ukladPoziomu.end(), { _, _, 9, _, 9, _, 9, _, 9, _, 9, _, _ });
+        ukladPoziomu.insert(ukladPoziomu.end(), { _, _, 7, 7, 7, 7, 7, 7, 7, 7, 7, _, _ });
+        ukladPoziomu.insert(ukladPoziomu.end(), { _, _, 8, 8, 8, 8, 8, 8, 8, 8, 8, _, _ });
 
         break;
     }

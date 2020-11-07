@@ -1,9 +1,8 @@
 #include "StanRozgrywki.h"
 
-
 StanRozgrywki::StanRozgrywki(ElementySilnikaWskaznik elementy, bool wczytaj, const int& ktoryPoziom)
     : czasOdczekanie(0.f), hp(2), wczytaj(wczytaj), ktoryPoziom(ktoryPoziom), przyznaneHP(0), Zaden(Kierunek::Zaden),
-    element(elementy)   
+    losuj(0, 2), element(elementy)   
 {
  
 }
@@ -228,7 +227,9 @@ void StanRozgrywki::sprawdzKolizje()
                     if (this->klocki[i]->hp < 1)
                     {
                         if (this->pilki.size() == 1 && this->klocki[i]->rodzaj != 8)
-                            this->bonus->zrzuc(this->klocki[i]->getPosition());
+                            //25% szans na zrzucenie bonusu
+                            if(this->losuj(this->element->generator) == 0)
+                                this->bonus->zrzuc(this->klocki[i]->getPosition());
 
                         this->pilki[k]->zwiekszSzybkosc();
                         this->dodajPunkty(klocki[i]->ilePunktow);
