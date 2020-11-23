@@ -24,7 +24,7 @@ void StanRozgrywki::inicjalizuj()
     if (this->wczytaj)
         this->wczytajZapis();
     else
-        this->poziom->stworzPoziom(this->klocki, this->tlo, this->hpGrafika, 0);
+        this->poziom->stworzPoziom(this->klocki, this->tlo, this->hpGrafika, this->ktoryPoziom);
 }
 
 void StanRozgrywki::ustawDzwieki()
